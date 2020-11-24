@@ -21,21 +21,8 @@ class DigioHeaderView: UIView {
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var leftLblConstraint: NSLayoutConstraint!
     
-    var icIcones = ""
-    var titles = ""
-    var titlesContrast = ""
-    
     override func awakeFromNib() {
         super.awakeFromNib()
 
     }
-
-    
-    func setupHeader()  {
-//        icIcone.image = UIImage(named: self.icIcones)
-        title.text = self.titles
-       titleContrast.text = self.titlesContrast
-    }
-    
-    
 }

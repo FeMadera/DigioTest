@@ -43,6 +43,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="CAK-xy-GMY" firstAttribute="leading" secondItem="oI5-bd-EDU" secondAttribute="trailing" constant="1" id="58Q-GE-y8v"/>
                 <constraint firstItem="oI5-bd-EDU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="5Lr-zB-P1q"/>
                 <constraint firstItem="iXK-gM-A5D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="KgH-Z5-TNJ"/>
                 <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="CAK-xy-GMY" secondAttribute="trailing" constant="221" id="ZJK-m1-4U4"/>
@@ -50,13 +51,12 @@
                 <constraint firstItem="CAK-xy-GMY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="iI2-wI-V08"/>
                 <constraint firstItem="oI5-bd-EDU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="37" id="jbc-d4-3HJ"/>
                 <constraint firstItem="oI5-bd-EDU" firstAttribute="leading" secondItem="iXK-gM-A5D" secondAttribute="trailing" constant="1" id="u1E-rb-J3m"/>
-                <constraint firstItem="CAK-xy-GMY" firstAttribute="leading" secondItem="iXK-gM-A5D" secondAttribute="trailing" constant="44" id="ybt-Vs-eT6"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="icIcone" destination="iXK-gM-A5D" id="dh1-lE-XrR"/>
                 <outlet property="leftConstraint" destination="jbc-d4-3HJ" id="EfF-5Z-Met"/>
-                <outlet property="leftLblConstraint" destination="ybt-Vs-eT6" id="kKq-Pj-OsK"/>
+                <outlet property="leftLblConstraint" destination="58Q-GE-y8v" id="7O0-YB-mFt"/>
                 <outlet property="title" destination="oI5-bd-EDU" id="Mdq-FK-reF"/>
                 <outlet property="titleContrast" destination="CAK-xy-GMY" id="VrH-GT-MvL"/>
             </connections>
