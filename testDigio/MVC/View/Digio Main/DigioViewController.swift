@@ -61,7 +61,7 @@ class DigioViewController: UIViewController, UITableViewDelegate, UITableViewDat
         if iconImg == "" {
             header?.icIcone.frame.size = CGSize(width: 0.0, height: 0.0)
             header?.leftConstraint.constant = 12.0
-            header?.leftLblConstraint.constant =  1
+            header?.leftLblConstraint.constant =  1.0
         }
         return header ?? UIView()
     }
