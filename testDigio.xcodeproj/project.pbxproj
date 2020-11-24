@@ -9,13 +9,47 @@
 /* Begin PBXBuildFile section */
 		7D91302725677E35009456E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91302625677E35009456E7 /* AppDelegate.swift */; };
 		7D91302925677E35009456E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91302825677E35009456E7 /* SceneDelegate.swift */; };
-		7D91302B25677E35009456E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91302A25677E35009456E7 /* ViewController.swift */; };
-		7D91302E25677E35009456E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D91302C25677E35009456E7 /* Main.storyboard */; };
+		7D91302B25677E35009456E7 /* DigioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91302A25677E35009456E7 /* DigioViewController.swift */; };
+		7D91302E25677E35009456E7 /* DigioMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D91302C25677E35009456E7 /* DigioMain.storyboard */; };
 		7D91303125677E35009456E7 /* testDigio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D91302F25677E35009456E7 /* testDigio.xcdatamodeld */; };
 		7D91303325677E36009456E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D91303225677E36009456E7 /* Assets.xcassets */; };
 		7D91303625677E36009456E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D91303425677E36009456E7 /* LaunchScreen.storyboard */; };
 		7D91304125677E36009456E7 /* testDigioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91304025677E36009456E7 /* testDigioTests.swift */; };
 		7D91304C25677E37009456E7 /* testDigioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91304B25677E37009456E7 /* testDigioUITests.swift */; };
+		7D91307725677E82009456E7 /* VDTURLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306625677E82009456E7 /* VDTURLEncoder.swift */; };
+		7D91307825677E82009456E7 /* VDTHTTPNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306725677E82009456E7 /* VDTHTTPNetworkRequest.swift */; };
+		7D91307925677E82009456E7 /* VDTHTTPNetworkRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306825677E82009456E7 /* VDTHTTPNetworkRoute.swift */; };
+		7D91307A25677E82009456E7 /* VDTHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306925677E82009456E7 /* VDTHTTPMethod.swift */; };
+		7D91307B25677E82009456E7 /* VDTURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306A25677E82009456E7 /* VDTURLSession.swift */; };
+		7D91307C25677E82009456E7 /* VDTHTTPNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306B25677E82009456E7 /* VDTHTTPNetworkResponse.swift */; };
+		7D91307D25677E82009456E7 /* VDTHTTPNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306C25677E82009456E7 /* VDTHTTPNetworkError.swift */; };
+		7D91307E25677E82009456E7 /* DigioListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91306F25677E82009456E7 /* DigioListService.swift */; };
+		7D91308025677E82009456E7 /* DigioCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91307425677E82009456E7 /* DigioCodable.swift */; };
+		7D91309625678159009456E7 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91309525678159009456E7 /* Util.swift */; };
+		7D91309F25678A7C009456E7 /* DigioSpotlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91309D25678A7C009456E7 /* DigioSpotlightCell.swift */; };
+		7D9130A025678A7C009456E7 /* DigioSpotlightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D91309E25678A7C009456E7 /* DigioSpotlightCell.xib */; };
+		7D9130AA25679325009456E7 /* DigioCashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9130A825679325009456E7 /* DigioCashCell.swift */; };
+		7D9130AB25679325009456E7 /* DigioCashCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9130A925679325009456E7 /* DigioCashCell.xib */; };
+		7D9130B5256794BD009456E7 /* DigioProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9130B3256794BD009456E7 /* DigioProductCell.swift */; };
+		7D9130B6256794BD009456E7 /* DigioProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9130B4256794BD009456E7 /* DigioProductCell.xib */; };
+		7D9130C725679E77009456E7 /* DigioSpotlighTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9130C525679E77009456E7 /* DigioSpotlighTableCell.swift */; };
+		7D9130C825679E77009456E7 /* DigioSpotlighTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9130C625679E77009456E7 /* DigioSpotlighTableCell.xib */; };
+		7D9130DB256A39FA009456E7 /* DigioSpotlightTableCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9130DA256A39FA009456E7 /* DigioSpotlightTableCellPresenter.swift */; };
+		7D9130F2256B8FBE009456E7 /* DigioTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9130F1256B8FBE009456E7 /* DigioTableViewPresenter.swift */; };
+		7D913101256C57F0009456E7 /* DigioTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D913100256C57F0009456E7 /* DigioTableViewInteractor.swift */; };
+		7D913111256C58F9009456E7 /* DigioCashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91310F256C58F9009456E7 /* DigioCashTableViewCell.swift */; };
+		7D913112256C58F9009456E7 /* DigioCashTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D913110256C58F9009456E7 /* DigioCashTableViewCell.xib */; };
+		7D91311F256C5E78009456E7 /* DigioCashTableViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91311E256C5E78009456E7 /* DigioCashTableViewCellPresenter.swift */; };
+		7D913126256C7573009456E7 /* DigioProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D913124256C7573009456E7 /* DigioProductTableViewCell.swift */; };
+		7D913127256C7573009456E7 /* DigioProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D913125256C7573009456E7 /* DigioProductTableViewCell.xib */; };
+		7D91313C256C75B7009456E7 /* DigioProductTableViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91313B256C75B7009456E7 /* DigioProductTableViewCellPresenter.swift */; };
+		7D91314D256C8837009456E7 /* DigioHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91314B256C8837009456E7 /* DigioHeaderView.swift */; };
+		7D913153256CB51D009456E7 /* DigioHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D913152256CB51D009456E7 /* DigioHeaderView.xib */; };
+		7D91316E256CCAE0009456E7 /* DigioMockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D91316D256CCAE0009456E7 /* DigioMockJson.json */; };
+		7D91317F256D701D009456E7 /* DigioTableViewPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91317E256D701C009456E7 /* DigioTableViewPresenterTests.swift */; };
+		7D913184256D7461009456E7 /* DigioProductTableViewCellPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D913183256D7461009456E7 /* DigioProductTableViewCellPresenterTests.swift */; };
+		7D913189256D76CB009456E7 /* DigioCashTableViewCellPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D913188256D76CB009456E7 /* DigioCashTableViewCellPresenterTests.swift */; };
+		7D91318E256D774F009456E7 /* DigioSpotlightTableCellPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91318D256D774F009456E7 /* DigioSpotlightTableCellPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +73,8 @@
 		7D91302325677E35009456E7 /* testDigio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDigio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D91302625677E35009456E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D91302825677E35009456E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D91302A25677E35009456E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D91302D25677E35009456E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D91302A25677E35009456E7 /* DigioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioViewController.swift; sourceTree = "<group>"; };
+		7D91302D25677E35009456E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DigioMain.storyboard; sourceTree = "<group>"; };
 		7D91303025677E35009456E7 /* testDigio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testDigio.xcdatamodel; sourceTree = "<group>"; };
 		7D91303225677E36009456E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D91303525677E36009456E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +85,40 @@
 		7D91304725677E37009456E7 /* testDigioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDigioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D91304B25677E37009456E7 /* testDigioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDigioUITests.swift; sourceTree = "<group>"; };
 		7D91304D25677E37009456E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D91306625677E82009456E7 /* VDTURLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTURLEncoder.swift; sourceTree = "<group>"; };
+		7D91306725677E82009456E7 /* VDTHTTPNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTHTTPNetworkRequest.swift; sourceTree = "<group>"; };
+		7D91306825677E82009456E7 /* VDTHTTPNetworkRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTHTTPNetworkRoute.swift; sourceTree = "<group>"; };
+		7D91306925677E82009456E7 /* VDTHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTHTTPMethod.swift; sourceTree = "<group>"; };
+		7D91306A25677E82009456E7 /* VDTURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTURLSession.swift; sourceTree = "<group>"; };
+		7D91306B25677E82009456E7 /* VDTHTTPNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTHTTPNetworkResponse.swift; sourceTree = "<group>"; };
+		7D91306C25677E82009456E7 /* VDTHTTPNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDTHTTPNetworkError.swift; sourceTree = "<group>"; };
+		7D91306F25677E82009456E7 /* DigioListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioListService.swift; sourceTree = "<group>"; };
+		7D91307425677E82009456E7 /* DigioCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioCodable.swift; sourceTree = "<group>"; };
+		7D91309525678159009456E7 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		7D91309D25678A7C009456E7 /* DigioSpotlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioSpotlightCell.swift; sourceTree = "<group>"; };
+		7D91309E25678A7C009456E7 /* DigioSpotlightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioSpotlightCell.xib; sourceTree = "<group>"; };
+		7D9130A825679325009456E7 /* DigioCashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioCashCell.swift; sourceTree = "<group>"; };
+		7D9130A925679325009456E7 /* DigioCashCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioCashCell.xib; sourceTree = "<group>"; };
+		7D9130B3256794BD009456E7 /* DigioProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductCell.swift; sourceTree = "<group>"; };
+		7D9130B4256794BD009456E7 /* DigioProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioProductCell.xib; sourceTree = "<group>"; };
+		7D9130C525679E77009456E7 /* DigioSpotlighTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioSpotlighTableCell.swift; sourceTree = "<group>"; };
+		7D9130C625679E77009456E7 /* DigioSpotlighTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioSpotlighTableCell.xib; sourceTree = "<group>"; };
+		7D9130DA256A39FA009456E7 /* DigioSpotlightTableCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioSpotlightTableCellPresenter.swift; sourceTree = "<group>"; };
+		7D9130F1256B8FBE009456E7 /* DigioTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTableViewPresenter.swift; sourceTree = "<group>"; };
+		7D913100256C57F0009456E7 /* DigioTableViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioTableViewInteractor.swift; sourceTree = "<group>"; };
+		7D91310F256C58F9009456E7 /* DigioCashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioCashTableViewCell.swift; sourceTree = "<group>"; };
+		7D913110256C58F9009456E7 /* DigioCashTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioCashTableViewCell.xib; sourceTree = "<group>"; };
+		7D91311E256C5E78009456E7 /* DigioCashTableViewCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioCashTableViewCellPresenter.swift; sourceTree = "<group>"; };
+		7D913124256C7573009456E7 /* DigioProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductTableViewCell.swift; sourceTree = "<group>"; };
+		7D913125256C7573009456E7 /* DigioProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioProductTableViewCell.xib; sourceTree = "<group>"; };
+		7D91313B256C75B7009456E7 /* DigioProductTableViewCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductTableViewCellPresenter.swift; sourceTree = "<group>"; };
+		7D91314B256C8837009456E7 /* DigioHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioHeaderView.swift; sourceTree = "<group>"; };
+		7D913152256CB51D009456E7 /* DigioHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigioHeaderView.xib; sourceTree = "<group>"; };
+		7D91316D256CCAE0009456E7 /* DigioMockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DigioMockJson.json; sourceTree = "<group>"; };
+		7D91317E256D701C009456E7 /* DigioTableViewPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTableViewPresenterTests.swift; sourceTree = "<group>"; };
+		7D913183256D7461009456E7 /* DigioProductTableViewCellPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductTableViewCellPresenterTests.swift; sourceTree = "<group>"; };
+		7D913188256D76CB009456E7 /* DigioCashTableViewCellPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioCashTableViewCellPresenterTests.swift; sourceTree = "<group>"; };
+		7D91318D256D774F009456E7 /* DigioSpotlightTableCellPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioSpotlightTableCellPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +169,11 @@
 		7D91302525677E35009456E7 /* testDigio */ = {
 			isa = PBXGroup;
 			children = (
+				7D91309A25678A1B009456E7 /* MVC */,
+				7D91309425678159009456E7 /* Util */,
+				7D91306425677E82009456E7 /* Network */,
 				7D91302625677E35009456E7 /* AppDelegate.swift */,
 				7D91302825677E35009456E7 /* SceneDelegate.swift */,
-				7D91302A25677E35009456E7 /* ViewController.swift */,
-				7D91302C25677E35009456E7 /* Main.storyboard */,
 				7D91303225677E36009456E7 /* Assets.xcassets */,
 				7D91303425677E36009456E7 /* LaunchScreen.storyboard */,
 				7D91303725677E36009456E7 /* Info.plist */,
@@ -118,6 +187,10 @@
 			children = (
 				7D91304025677E36009456E7 /* testDigioTests.swift */,
 				7D91304225677E36009456E7 /* Info.plist */,
+				7D91317E256D701C009456E7 /* DigioTableViewPresenterTests.swift */,
+				7D913183256D7461009456E7 /* DigioProductTableViewCellPresenterTests.swift */,
+				7D913188256D76CB009456E7 /* DigioCashTableViewCellPresenterTests.swift */,
+				7D91318D256D774F009456E7 /* DigioSpotlightTableCellPresenterTests.swift */,
 			);
 			path = testDigioTests;
 			sourceTree = "<group>";
@@ -129,6 +202,195 @@
 				7D91304D25677E37009456E7 /* Info.plist */,
 			);
 			path = testDigioUITests;
+			sourceTree = "<group>";
+		};
+		7D91306425677E82009456E7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7D91306525677E82009456E7 /* HTTPNetwork */,
+				7D91306D25677E82009456E7 /* Service */,
+				7D91307225677E82009456E7 /* JsonModelCodable */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7D91306525677E82009456E7 /* HTTPNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7D91306625677E82009456E7 /* VDTURLEncoder.swift */,
+				7D91306725677E82009456E7 /* VDTHTTPNetworkRequest.swift */,
+				7D91306825677E82009456E7 /* VDTHTTPNetworkRoute.swift */,
+				7D91306925677E82009456E7 /* VDTHTTPMethod.swift */,
+				7D91306A25677E82009456E7 /* VDTURLSession.swift */,
+				7D91306B25677E82009456E7 /* VDTHTTPNetworkResponse.swift */,
+				7D91306C25677E82009456E7 /* VDTHTTPNetworkError.swift */,
+			);
+			path = HTTPNetwork;
+			sourceTree = "<group>";
+		};
+		7D91306D25677E82009456E7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7D91306E25677E82009456E7 /* UsersListService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7D91306E25677E82009456E7 /* UsersListService */ = {
+			isa = PBXGroup;
+			children = (
+				7D91306F25677E82009456E7 /* DigioListService.swift */,
+			);
+			path = UsersListService;
+			sourceTree = "<group>";
+		};
+		7D91307225677E82009456E7 /* JsonModelCodable */ = {
+			isa = PBXGroup;
+			children = (
+				7D913160256CC5E9009456E7 /* mockJson */,
+				7D91307325677E82009456E7 /* DigioList */,
+			);
+			path = JsonModelCodable;
+			sourceTree = "<group>";
+		};
+		7D91307325677E82009456E7 /* DigioList */ = {
+			isa = PBXGroup;
+			children = (
+				7D91307425677E82009456E7 /* DigioCodable.swift */,
+			);
+			path = DigioList;
+			sourceTree = "<group>";
+		};
+		7D91309425678159009456E7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7D91309525678159009456E7 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7D91309A25678A1B009456E7 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				7D91309B25678A32009456E7 /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		7D91309B25678A32009456E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D913146256C7AAC009456E7 /* Digio Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D91309C25678A39009456E7 /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9130A425678A83009456E7 /* SpotlightCell */,
+				7D9130AF2567932B009456E7 /* CashCell */,
+				7D9130BA256794D3009456E7 /* ProductCell */,
+			);
+			path = "Collection View Cell";
+			sourceTree = "<group>";
+		};
+		7D9130A425678A83009456E7 /* SpotlightCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D91309D25678A7C009456E7 /* DigioSpotlightCell.swift */,
+				7D91309E25678A7C009456E7 /* DigioSpotlightCell.xib */,
+			);
+			path = SpotlightCell;
+			sourceTree = "<group>";
+		};
+		7D9130AF2567932B009456E7 /* CashCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9130A825679325009456E7 /* DigioCashCell.swift */,
+				7D9130A925679325009456E7 /* DigioCashCell.xib */,
+			);
+			path = CashCell;
+			sourceTree = "<group>";
+		};
+		7D9130BA256794D3009456E7 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9130B3256794BD009456E7 /* DigioProductCell.swift */,
+				7D9130B4256794BD009456E7 /* DigioProductCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		7D9130C425679E03009456E7 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D913123256C7559009456E7 /* Prodcut Table Cell */,
+				7D91310E256C58D9009456E7 /* Cash Table Cell */,
+				7D9130FC256C5709009456E7 /* Spotligh Table Cell */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		7D9130FC256C5709009456E7 /* Spotligh Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9130C525679E77009456E7 /* DigioSpotlighTableCell.swift */,
+				7D9130C625679E77009456E7 /* DigioSpotlighTableCell.xib */,
+				7D9130DA256A39FA009456E7 /* DigioSpotlightTableCellPresenter.swift */,
+			);
+			path = "Spotligh Table Cell";
+			sourceTree = "<group>";
+		};
+		7D91310E256C58D9009456E7 /* Cash Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D91310F256C58F9009456E7 /* DigioCashTableViewCell.swift */,
+				7D913110256C58F9009456E7 /* DigioCashTableViewCell.xib */,
+				7D91311E256C5E78009456E7 /* DigioCashTableViewCellPresenter.swift */,
+			);
+			path = "Cash Table Cell";
+			sourceTree = "<group>";
+		};
+		7D913123256C7559009456E7 /* Prodcut Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D913124256C7573009456E7 /* DigioProductTableViewCell.swift */,
+				7D913125256C7573009456E7 /* DigioProductTableViewCell.xib */,
+				7D91313B256C75B7009456E7 /* DigioProductTableViewCellPresenter.swift */,
+			);
+			path = "Prodcut Table Cell";
+			sourceTree = "<group>";
+		};
+		7D913146256C7AAC009456E7 /* Digio Main */ = {
+			isa = PBXGroup;
+			children = (
+				7D91314A256C87FE009456E7 /* header */,
+				7D9130C425679E03009456E7 /* Table View Cell */,
+				7D91309C25678A39009456E7 /* Collection View Cell */,
+				7D9130F1256B8FBE009456E7 /* DigioTableViewPresenter.swift */,
+				7D913100256C57F0009456E7 /* DigioTableViewInteractor.swift */,
+				7D91302A25677E35009456E7 /* DigioViewController.swift */,
+				7D91302C25677E35009456E7 /* DigioMain.storyboard */,
+			);
+			path = "Digio Main";
+			sourceTree = "<group>";
+		};
+		7D91314A256C87FE009456E7 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				7D91314B256C8837009456E7 /* DigioHeaderView.swift */,
+				7D913152256CB51D009456E7 /* DigioHeaderView.xib */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		7D913160256CC5E9009456E7 /* mockJson */ = {
+			isa = PBXGroup;
+			children = (
+				7D91316D256CCAE0009456E7 /* DigioMockJson.json */,
+			);
+			path = mockJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +497,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D91303625677E36009456E7 /* LaunchScreen.storyboard in Resources */,
+				7D913127256C7573009456E7 /* DigioProductTableViewCell.xib in Resources */,
+				7D913112256C58F9009456E7 /* DigioCashTableViewCell.xib in Resources */,
+				7D9130AB25679325009456E7 /* DigioCashCell.xib in Resources */,
+				7D9130B6256794BD009456E7 /* DigioProductCell.xib in Resources */,
+				7D9130A025678A7C009456E7 /* DigioSpotlightCell.xib in Resources */,
 				7D91303325677E36009456E7 /* Assets.xcassets in Resources */,
-				7D91302E25677E35009456E7 /* Main.storyboard in Resources */,
+				7D91302E25677E35009456E7 /* DigioMain.storyboard in Resources */,
+				7D91316E256CCAE0009456E7 /* DigioMockJson.json in Resources */,
+				7D9130C825679E77009456E7 /* DigioSpotlighTableCell.xib in Resources */,
+				7D913153256CB51D009456E7 /* DigioHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +531,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D91302B25677E35009456E7 /* ViewController.swift in Sources */,
+				7D91307725677E82009456E7 /* VDTURLEncoder.swift in Sources */,
+				7D91302B25677E35009456E7 /* DigioViewController.swift in Sources */,
+				7D91311F256C5E78009456E7 /* DigioCashTableViewCellPresenter.swift in Sources */,
+				7D91307D25677E82009456E7 /* VDTHTTPNetworkError.swift in Sources */,
+				7D913101256C57F0009456E7 /* DigioTableViewInteractor.swift in Sources */,
 				7D91302725677E35009456E7 /* AppDelegate.swift in Sources */,
+				7D913111256C58F9009456E7 /* DigioCashTableViewCell.swift in Sources */,
 				7D91303125677E35009456E7 /* testDigio.xcdatamodeld in Sources */,
+				7D91307C25677E82009456E7 /* VDTHTTPNetworkResponse.swift in Sources */,
+				7D91308025677E82009456E7 /* DigioCodable.swift in Sources */,
+				7D913126256C7573009456E7 /* DigioProductTableViewCell.swift in Sources */,
 				7D91302925677E35009456E7 /* SceneDelegate.swift in Sources */,
+				7D9130C725679E77009456E7 /* DigioSpotlighTableCell.swift in Sources */,
+				7D91307A25677E82009456E7 /* VDTHTTPMethod.swift in Sources */,
+				7D9130B5256794BD009456E7 /* DigioProductCell.swift in Sources */,
+				7D9130AA25679325009456E7 /* DigioCashCell.swift in Sources */,
+				7D9130DB256A39FA009456E7 /* DigioSpotlightTableCellPresenter.swift in Sources */,
+				7D9130F2256B8FBE009456E7 /* DigioTableViewPresenter.swift in Sources */,
+				7D91307825677E82009456E7 /* VDTHTTPNetworkRequest.swift in Sources */,
+				7D91307925677E82009456E7 /* VDTHTTPNetworkRoute.swift in Sources */,
+				7D91314D256C8837009456E7 /* DigioHeaderView.swift in Sources */,
+				7D91309625678159009456E7 /* Util.swift in Sources */,
+				7D91307B25677E82009456E7 /* VDTURLSession.swift in Sources */,
+				7D91309F25678A7C009456E7 /* DigioSpotlightCell.swift in Sources */,
+				7D91313C256C75B7009456E7 /* DigioProductTableViewCellPresenter.swift in Sources */,
+				7D91307E25677E82009456E7 /* DigioListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +564,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D913184256D7461009456E7 /* DigioProductTableViewCellPresenterTests.swift in Sources */,
+				7D91318E256D774F009456E7 /* DigioSpotlightTableCellPresenterTests.swift in Sources */,
 				7D91304125677E36009456E7 /* testDigioTests.swift in Sources */,
+				7D913189256D76CB009456E7 /* DigioCashTableViewCellPresenterTests.swift in Sources */,
+				7D91317F256D701D009456E7 /* DigioTableViewPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +596,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7D91302C25677E35009456E7 /* Main.storyboard */ = {
+		7D91302C25677E35009456E7 /* DigioMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7D91302D25677E35009456E7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = DigioMain.storyboard;
 			sourceTree = "<group>";
 		};
 		7D91303425677E36009456E7 /* LaunchScreen.storyboard */ = {

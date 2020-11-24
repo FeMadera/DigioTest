@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DigioSpotlightCell" id="gTV-IL-0wX" customClass="DigioSpotlightCell" customModule="testDigio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTb-aC-QNg">
+                        <rect key="frame" x="8" y="8" width="334" height="184"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIc-EM-5sk">
+                                <rect key="frame" x="0.0" y="0.0" width="334" height="184"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hIc-j7-LKe">
+                                        <rect key="frame" x="1" y="1" width="332" height="182"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hIc-j7-LKe" secondAttribute="trailing" constant="1" id="9SI-s6-pvL"/>
+                                    <constraint firstAttribute="bottom" secondItem="hIc-j7-LKe" secondAttribute="bottom" constant="1" id="KYG-Wd-EvZ"/>
+                                    <constraint firstItem="hIc-j7-LKe" firstAttribute="centerX" secondItem="TIc-EM-5sk" secondAttribute="centerX" id="Oq9-Kh-S5c"/>
+                                    <constraint firstItem="hIc-j7-LKe" firstAttribute="leading" secondItem="TIc-EM-5sk" secondAttribute="leading" constant="1" id="S8c-an-dR6"/>
+                                    <constraint firstItem="hIc-j7-LKe" firstAttribute="top" secondItem="TIc-EM-5sk" secondAttribute="top" constant="1" id="Ww8-if-X4b"/>
+                                    <constraint firstItem="hIc-j7-LKe" firstAttribute="centerY" secondItem="TIc-EM-5sk" secondAttribute="centerY" id="ggk-A5-eg4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="TIc-EM-5sk" secondAttribute="bottom" id="1I8-bV-L7M"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="leading" secondItem="BTb-aC-QNg" secondAttribute="leading" id="IF7-ez-4cm"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="top" secondItem="BTb-aC-QNg" secondAttribute="top" id="Sq4-om-eS8"/>
+                            <constraint firstAttribute="bottom" secondItem="TIc-EM-5sk" secondAttribute="bottom" id="Ytv-0j-aBh"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="centerY" secondItem="BTb-aC-QNg" secondAttribute="centerY" id="bk9-iI-fyC"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="centerX" secondItem="BTb-aC-QNg" secondAttribute="centerX" id="gG1-ap-ByH"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="leading" secondItem="BTb-aC-QNg" secondAttribute="leading" id="hG5-aa-ChY"/>
+                            <constraint firstAttribute="trailing" secondItem="TIc-EM-5sk" secondAttribute="trailing" id="mpC-JI-Qzo"/>
+                            <constraint firstItem="TIc-EM-5sk" firstAttribute="top" secondItem="BTb-aC-QNg" secondAttribute="top" id="rbL-Hh-IUm"/>
+                            <constraint firstAttribute="trailing" secondItem="TIc-EM-5sk" secondAttribute="trailing" id="yTX-8U-O5L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="BTb-aC-QNg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="KOT-1K-7AM"/>
+                <constraint firstAttribute="bottom" secondItem="BTb-aC-QNg" secondAttribute="bottom" constant="8" id="LjF-LM-sev"/>
+                <constraint firstItem="BTb-aC-QNg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="vwv-sa-IHX"/>
+                <constraint firstAttribute="trailing" secondItem="BTb-aC-QNg" secondAttribute="trailing" constant="8" id="xem-Jx-QcW"/>
+            </constraints>
+            <size key="customSize" width="349" height="200"/>
+            <connections>
+                <outlet property="bgView" destination="TIc-EM-5sk" id="L0q-zp-mdB"/>
+                <outlet property="spotlightImg" destination="hIc-j7-LKe" id="xqz-ez-jOC"/>
+            </connections>
+            <point key="canvasLocation" x="186" y="74"/>
+        </collectionViewCell>
+    </objects>
+</document>
